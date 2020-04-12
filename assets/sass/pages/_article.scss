@@ -1,0 +1,129 @@
+.article {
+
+    &__container {
+        width: 50%;
+        float: left;
+        height: 765px;
+    }
+
+    &__container-text {
+        width: 60%;
+        padding: 8% 8% 8% 2%;
+
+    }
+
+    &__title {
+        font-size: $xxx-large;
+        font-weight: $bold;
+        font-family: $old-standard;
+        color: $smoky-black;
+    }
+
+    &__paragraph {
+        font-size: 16px;
+        font-weight: $regular;
+        color: $smoky-black;
+    }
+
+    &__button {
+        padding: 1em;
+        background-color: transparent;
+        border: 1px solid #0C0910;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: "Raleway", sans-serif;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+
+    }
+
+    &__image {
+        width: 50%;
+        height: 765px;
+        background-image: url(../img/img-1.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+        float: left;
+
+
+    }
+}
+
+.suscribe {
+    background-color: #FFF;
+    position: absolute;
+    height: 17em;
+    right: 50%;
+    top: 36em;
+    text-align: right;
+
+    &__text {
+        transform: rotate(90deg);
+        font-family: $old-standard;
+        color: $smoky-black;
+        font-weight: $bold;
+        font-size: $x-large;
+        text-align: center;
+        margin-top: 140px;
+
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .article {
+        display: flex;
+        flex-direction: column;
+
+        &__image {
+        width: auto;
+        height: 765px;
+        background-image: url(../img/img-1.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+        display:flex;
+        margin:0;
+        box-sizing: border-box;
+        position: relative;
+
+        }
+
+        &__container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 55em;
+
+        }
+
+        &__container-text {
+            width: 80%;
+            padding: 5% 5% 5% 2%;
+
+        }
+
+        &__title {
+            font-size: $xxx-large;
+            font-weight: $bold;
+            font-family: $old-standard;
+            color: $smoky-black;
+        }
+
+        &__paragraph {
+            font-size: 16px;
+            font-weight: $regular;
+            color: $smoky-black;
+        }
+    }
+
+    .suscribe{
+        background-color: #FFF;
+        position: absolute;
+        height: 17em;
+        right: 0%;
+        top: 21em;
+        text-align: right;
+    }
+}

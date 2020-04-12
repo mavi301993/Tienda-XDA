@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title> Tienda XDA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome - Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <!-- Googlefonts -->
+  <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700|Raleway:400,700&display=swap"
+    rel="stylesheet">
+
+  <!-- My style -->
+  <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+
+  <nav class="topnav" id="myTopnav">
+    <a class="nav__logo" href="#home"><h1 class="nav__icon">XDA</h1></a>
+  <div class="nav__container">
+    <a class="nav__item" href="#character">Mujer</a>
+      <a class="nav__item" href="#character">Hombre</a>
+      <a class="nav__item" href="#prices">Accesorios</a>-
+      <a class="nav__item" href="#prices">Blog</a>
+    </div>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </nav>
+
+  <!-- Hero Section -->
+
+  <article class="article">
+    <div class="article__container">
+      <div class="article__container-text">
+        <h1 class="article__title">LOREM IPSUM AD VALOREM</h1>
+        <p class="article__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, rem inventore est
+          omnis ut neque laboriosam,
+          dignissimos error dolores modi maiores debitis architecto tempore hic libero corrupti a nisi quidem.</p>
+        <button class="article__button">Ir a tienda</button>
+      </div>
+
+      <section class="contact">
+        <h1 class="contact__title">Newsletter</h1>
+        <h2 class="contact__subtitle">Correo Electrónico</h2>
+        <input class="contact__input" type="Correo electrónico" value="Ingresa tu correo electrónico"><br>
+
+        <footer class="suscribe">
+          <h2 class="suscribe__text">Suscribir</h2>
+        </footer>
+
+      </section>
+
+    </div>
+
+    <small class="article__image">
+    </small>
+
+  </article>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+
+</html>

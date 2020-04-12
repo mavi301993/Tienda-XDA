@@ -1,0 +1,87 @@
+body {
+  font-family: "PT Mono", monospace;
+  color: #000000;
+}
+
+.navbar {
+  background: #FFF;
+  color: #989797;
+  text-align: left;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  vertical-align: middle;
+}
+.navbar__logo {
+  width: 20%;
+}
+.navbar__buttons {
+  width: 60vw;
+  text-align: right;
+  padding: 2%;
+}
+.navbar__buttons__buttons-default {
+  background-color: transparent;
+  color: #989797;
+  border: 1px solid #989797;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "PT Mono", monospace;
+  padding: 1%;
+}
+.navbar__buttons__buttons-positive {
+  background-color: #4CA866;
+  color: #FFF;
+  border: none;
+  font-family: "PT Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 1%;
+}
+
+.navbar a {
+  color: #989797;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+
+.article__container {
+  width: 20%;
+}
+
+.header {
+  padding-top: 5%;
+  display: flex;
+}
+.header__container {
+  width: 60%;
+}
+.header__container-image {
+  width: 100%;
+}
+.header__text {
+  color: #000000;
+  width: auto;
+  text-align: left;
+  padding: 3%;
+}
+.header__text-title {
+  font-size: 70px;
+  font-weight: 400;
+}
+.header__text-subtitle {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=main,css.map */

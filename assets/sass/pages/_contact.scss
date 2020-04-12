@@ -1,0 +1,48 @@
+.contact {
+    background-color: $smoky-black;
+    color:$white;
+    padding: 10%;
+
+
+    &__title {
+        font-weight: $bold;
+        font-family: $old-standard;
+        font-size: $xx-large;
+        margin-bottom: 4%;
+    }
+
+    &__subtitle {
+        font-weight: $regular;
+        font-family: $old-standard;
+        font-size: $large;
+    }
+
+    &__input {
+        background-color: white;
+        border-radius: 2px;
+        color: $light-gray;
+        font-weight: $regular;
+        font-family: $raleway;
+        width: 80%;
+        border: none;
+        padding: 2%;
+    }
+}
+
+// .suscribe {
+//     width: 100%;
+//     transform: rotate(90deg);
+//     background-color: $white;
+//     margin: 0;
+//     box-sizing: border-box;
+
+//     &__text {
+//         font-family: $old-standard;
+//         color: $smoky-black;
+//         font-weight: $bold;
+//         font-size: $x-large;
+//         padding-top: 1%;
+//         padding-bottom: 1%;
+//         padding-left: 90%;
+//     }
+// }
